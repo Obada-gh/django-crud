@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<h2>Create new Snack</h2>  
+<form action="" method="POST">
+
+    {% csrf_token  %} 
+<p>Do you really want to Delete snake ?</p>
+<input type='submit' value='Ok'>
+  
+
+
+</form>
+
+
+
+{% endblock content %}
